@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  image-dev-utils:
+    build: .
+    image: image-dev-utils
+    container_name: image-dev-utils
+    ports:
+      - "223:22"
