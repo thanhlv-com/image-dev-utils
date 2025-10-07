@@ -30,7 +30,6 @@ RUN apt install -y telnet
 RUN apt install -y build-essential
 
 # Install Node.js and npm
-RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 
 # Install Python and pip
